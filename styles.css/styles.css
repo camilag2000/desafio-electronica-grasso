@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{ 
+    color:  rgba(9, 9, 87, 0.786);
+    text-align: center;
+}
+main {
+    background-image: linear-gradient(#3055db, #0c1b54, #fff);
+}
+
+header{
+    background-color:#ffff ;
+    height: 5cm;
+    background-position: left;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+
+.cabecera {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera img {
+    width: 5cm;
+    margin-left: 0rem;
+    border-radius: 5rem;
+    justify-content: center;
+    margin-top: 3cm;
+   
+   
+}
+
+.cabecera li {
+   margin-right: 0.4cm;
+    margin-top: 0.4cm;
+    margin-left: 0.5cm;
+    margin-bottom: 0.7cm;
+    text-align: left;
+    display:inline-flex;
+    text-align: left;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5cm;
+    font-weight:bolder;
+
+    
+}
+
+
+.paginaPrincipal {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9cm;
+}
+.cabecera h2 {
+    padding-right: 3cm;
+    border-bottom: solid #1c23e8 0.2cm;
+    border-top: solid #1c23e8 0.2cm;
+    border-left: #1c23e8 solid 0.2cm;
+    width: 20cm;
+    font-size: 00.5cm;
+
+}
+
+.electronicaGrasso {
+    border-top: #1c23e8 solid 5px;
+    border-bottom: #1c23e8 solid 5px;
+}
+main {
+    margin: 4rem 0;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1cm;
+    width: 90%;
+}
+.info img {
+    width: 30cm;
+    border-radius: 2cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+ 
+    margin-right: 0cm;
+    padding-right: 0.5cm;
+    display: flex;
+    flex-direction: column;
+    
+}
+div h3 {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8cm;
+    text-align: center;
+    flex: 1;
+    border: 0.2cm #fff solid;
+    margin-left: 1cm;
+    margin-top: 2cm;
+}
+div p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.7cm;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    margin-top: 00.3cm;
+   
+}
+
+.pieDePagina{ 
+  background-color: #fff;
+  text-align: right;
+  font-size: 0.5cm;
+  margin-top: 2cm;
+
+}
+footer{
+    height: 500px;
+}
+ .pie {
+    width: 50%;
+    background-color: #fff;
+    height: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: #0c1b54 solid 0.3cm;
+ }
+ .pie p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.5cm;
+
+    
+ }
+ 
+ 
+ .pie button {
+    height: 1cm;
+    width: 5cm;
+    font-size: 1cm;
+    height: 2rem;
+    background-color:#0c1b54;
+    border-radius: 1rem;
+    border: 2cm gray;
+    font-size: 0.5rem;
+    top: 5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.3cm;
+    transform: scale(1,2);
+ }
+ .piePagina{ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: rem;
+   
+ }
+ .encontranos p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.5cm;
+    background-color: #0c1b54;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+margin-top: 3cm;
+}
+ .grilla {
+    display: grid;
+    grid-template-areas: 
+    "informacion servicio contacto";
+    padding: 100px;
+    width: 100%;
+    height: 10cm;
+    gap: 10PX;
+    align-items: center;
+    align-content:space-around;
+    margin-bottom: 0.5cm;
+ }
+
+ .informacion {
+    grid-area: informacion;
+    margin-top: 2cm;
+    margin-bottom: 5cm;
+    margin-left: 5cm;
+    border: #0c1b54 0.3cm solid;
+    text-align: center;
+    background-color: #fff;
+    }
+
+
+  .servicio {
+    grid-area: servicio;
+    margin-top: 2cm;
+    margin-bottom: 5cm;
+    margin-left: 5cm;
+    border: #0c1b54 0.3cm solid;
+    text-align: center;
+    background-color: #fff
+  }
+  .contacto {
+    grid-area: contacto;
+    margin-top: 2cm;
+    margin-bottom: 5cm;
+    margin-left: 5cm;
+    border: #0c1b54 0.3cm solid;
+    text-align: center;
+    background-color: #fff
+  }
+/*inicio de pagina nosotros*/
+
+
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nosotros p {
+    justify-items: center;
+    text-align: center;
+    font-size: 0.4;
+    margin-top: 5cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-bottom: 3cm;
+}
+.grilla2{
+    display: grid;
+    grid-template-areas: 
+    "somos grilla-imagen";
+    grid-template-columns: repeat(15, 1rf);
+    padding: 100px;
+    width: 100%;
+    height: 10cm;
+    gap: 40PX;
+    align-items: center;
+    align-content:space-around;
+    margin-bottom: 0.5cm;
+}
+.nosotros img {
+    border-radius: 15cm;
+}
+/*cierre de pagina nosotros*/
+/*inicio de pagina servicio*/
+.service {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.5cm;
+    background-color: #0c1b54;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+margin-top: 3cm;
+}
+main p {
+    text-align: left;
+    padding: 0.5cm;
+    font-size: 0.5cm;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+}
+.service2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 00.3cm;
+    border-radius: solid #0c1b54 0.2cm ;
+}
+.oficial li {
+    margin-right: 0.4cm;
+    margin-top: 0.4cm;
+    margin-left: 0.5cm;
+    margin-bottom: 0.7cm;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5cm;
+    font-weight:bolder;
+    flex-direction: column;
+}
+/*cierra de pagina servico*/
+/*inicio de pagina contactanis*/
+.tecnico { 
+    
+    display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 0.5cm;
+      background-color: #0c1b54;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      margin-top: 1cm;
+      height: 5cm;
+}
+body.maps {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3cm;
+}
+
+@media screen and (min-width: 500px) {
+    .cabecera li {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
