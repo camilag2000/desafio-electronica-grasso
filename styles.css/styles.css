@@ -14,10 +14,12 @@ main {
 
 header{
     background-color:#ffff ;
-    height: 3cm;
+    height: 2cm;
     background-position: left;
     background-repeat: no-repeat;
     align-items: center;
+    margin-bottom: 3cm;
+    
   
 }
 
@@ -78,13 +80,15 @@ header{
 }
 */
 .imagen-logo {
-    width: 5cm;
+    height: 5cm;
     margin-left: 0rem;
     border-radius: 5rem;
     justify-content: center;
     margin-top: 3cm;
     
+    
 }
+
 main {
     margin: 4rem 0;
     
@@ -117,7 +121,7 @@ div h3 {
     flex: 1;
     border: 0.2cm #fff solid;
     margin-left: 1cm;
-    margin-top: 2cm;
+    
 }
 div p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -213,7 +217,7 @@ margin-top: 3cm;
     background-color: #fff;
     }
 
-/*
+
   .servicio {
     grid-area: servicio;
     margin-top: 2cm;
@@ -273,6 +277,7 @@ margin-top: 3cm;
 }
 /*cierre de pagina nosotros*/
 /*inicio de pagina servicio*/
+
 .service {
     margin: 4rem 0;
     display: flex;
@@ -320,6 +325,7 @@ main p {
 }
 /*cierra de pagina servico*/
 /*inicio de pagina contactanis*/
+
 .tecnico { 
     
     display: flex;
