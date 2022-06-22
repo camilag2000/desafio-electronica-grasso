@@ -240,41 +240,8 @@ margin-top: 3cm;
 
 
 
-.nosotros {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.nosotros p {
-    justify-items: center;
-    text-align: center;
-    font-size: 0.4;
-    margin-top: 5cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    margin-bottom: 1cm;
-}
-.grilla2{
-    display: grid;
-    grid-template-areas: 
-    "somos grilla-imagen";
-    grid-template-columns: repeat(15, 1rf);
-    padding: 100px;
-    width: 100%;
-    height: 10cm;
-    gap: 40PX;
-    align-items: center;
-    align-content:space-around;
-    margin-bottom: 0.5cm;
-    display: flex;
-    flex-direction: column;
 
-}
-.nosotros img {
-    border-radius: 15cm;
-    display: flex;
-    flex-direction: row;
-}
+
 /*cierre de pagina nosotros*/
 /*inicio de pagina servicio*/
 
