@@ -14,11 +14,14 @@ main {
 
 header{
     background-color:#ffff ;
-    height: 5cm;
+    height: 3cm;
     background-position: left;
     background-repeat: no-repeat;
     align-items: center;
+  
 }
+
+
 
 /*
 .cabecera {
