@@ -237,7 +237,7 @@ margin-top: 3cm;
     margin-top: 5cm;
     margin-left: 1cm;
     margin-right: 1cm;
-    margin-bottom: 3cm;
+    margin-bottom: 1cm;
 }
 .grilla2{
     display: grid;
@@ -251,9 +251,14 @@ margin-top: 3cm;
     align-items: center;
     align-content:space-around;
     margin-bottom: 0.5cm;
+    display: flex;
+    flex-direction: column;
+
 }
 .nosotros img {
     border-radius: 15cm;
+    display: flex;
+    flex-direction: row;
 }
 /*cierre de pagina nosotros*/
 /*inicio de pagina servicio*/
