@@ -243,7 +243,7 @@ margin-top: 3cm;
     justify-items: center;
     text-align: center;
     font-size: 0.4;
-    margin-top: 5cm;
+    margin-top: 3cm;
     margin-left: 1cm;
     margin-right: 1cm;
     margin-bottom: 3cm;
@@ -262,14 +262,26 @@ margin-top: 3cm;
     margin-bottom: 0.5cm;
     display: flex;
     flex-direction: column;
+    margin-top: 0cm;
+    margin-bottom: 3cm;
+    padding: 1cm;
+}
+.grilla2 h1 {
+    border: solid #fff 0.3cm;
+    border-radius: 1cm;
+    padding: 1cm;
+    
 }
 
 .grilla2 p {
     margin-top: 00.1cm;
 }
-.nosotros {
-    border-radius: 15cm;
+.imagen img {
+    margin-right: 1cm;
+    margin-top: 3cm;
+    border-radius: 1cm;
 }
+
 /*cierre de pagina nosotros*/
 /*inicio de pagina servicio*/
 .service {
