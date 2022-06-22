@@ -20,7 +20,7 @@ header{
     align-items: center;
 }
 
-
+/*
 .cabecera {
     height: 100px;
     display: flex;
@@ -72,6 +72,15 @@ header{
 .electronicaGrasso {
     border-top: #1c23e8 solid 5px;
     border-bottom: #1c23e8 solid 5px;
+}
+*/
+.imagen-logo {
+    width: 5cm;
+    margin-left: 0rem;
+    border-radius: 5rem;
+    justify-content: center;
+    margin-top: 3cm;
+    
 }
 main {
     margin: 4rem 0;
@@ -179,10 +188,9 @@ footer{
     font-family: 'Courier New', Courier, monospace;
 margin-top: 3cm;
 }
- .grilla {
-    display: grid;
-    grid-template-areas: 
-    "informacion servicio contacto";
+
+ .conteiner {
+   
     padding: 100px;
     width: 100%;
     height: 10cm;
@@ -192,8 +200,8 @@ margin-top: 3cm;
     margin-bottom: 0.5cm;
  }
 
- .informacion {
-    grid-area: informacion;
+ .col {
+    
     margin-top: 2cm;
     margin-bottom: 5cm;
     margin-left: 5cm;
@@ -202,7 +210,7 @@ margin-top: 3cm;
     background-color: #fff;
     }
 
-
+/*
   .servicio {
     grid-area: servicio;
     margin-top: 2cm;
