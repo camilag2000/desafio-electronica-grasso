@@ -11,19 +11,15 @@ h2{
 main {
 
         animation-name: animacion;
-        animation-duration: initial;
+        animation-duration: 30s;
         animation-iteration-count
         : initial;
     }
-    @keyframes animacion {
+@keyframes animacion {
         60% { background-color: #0c1b54;}
         20% { background-color: #a5ab9f ;}
         20% {background-color: #1c23e8;}
     }
-
-
-
-
 
 header{
     background-color:#ffff ;
@@ -342,7 +338,7 @@ body.maps {
     margin-left: 3cm;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 100%) {
     .cabecera li {
         display: flex;
         flex-direction: column;
