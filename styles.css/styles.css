@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 h2{ 
@@ -19,6 +18,7 @@ header{
     background-repeat: no-repeat;
     align-items: center;
     margin-bottom: 3cm;
+   
     
   
 }
@@ -90,7 +90,10 @@ header{
 }
 
 main {
-    margin: 4rem 0;
+    margin: 10rem 0;
+    width: 100%;
+    margin-top: 3cm;
+    
     
 }
 
@@ -308,12 +311,7 @@ main p {
       margin-top: 1cm;
       height: 5cm;
 }
-body.maps {
-    text-align: center;
-    justify-content: center;
-    text-align: center;
-    margin-left: 3cm;
-}
+
 
 @media screen and (min-width: 500px) {
     .cabecera li {
