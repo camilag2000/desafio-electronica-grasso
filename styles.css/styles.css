@@ -80,13 +80,8 @@ header{
 }
 */
 .imagen-logo {
-    height: 5cm;
-    margin-left: 0rem;
-    border-radius: 5rem;
-    justify-content: center;
-    margin-top: 3cm;
-    
-    
+    height: 4cm;
+    border-radius: 4rem;
 }
 
 main {
@@ -155,7 +150,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: #0c1b54 solid 0.3cm;
+    border: #191976 solid 0.3cm;
  }
  .pie p {
     text-align: center;
