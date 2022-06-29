@@ -20,7 +20,7 @@
             font-size: 0.9cm;
             text-align: center;
             flex: 1;
-            border: 0.2cm #fff solid;
+            border: 0.2cm $blanco solid;
             margin-left: 5cm;
             margin-top: 1cm;
         }
@@ -56,17 +56,18 @@ p {
  img {
     margin-right: 2cm;
 }
-
-
+}
+.servicio {
 h3 {
   
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.9cm;
     text-align: center;
     flex: 1;
-    border: 0.2cm #fff solid;
+    border: 0.2cm $blanco solid;
     margin-left: 3cm;
     margin-top: 3cm;
     margin-right: 2cm;
     
+}
 }
