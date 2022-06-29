@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"estilo.css"}
+{"version":3,"sources":["scss/_reset.scss","estilo.css","scss/_header.scss","scss/_variables.scss"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,UAAA;ACCJ;;ACHA;EACI,yBAAA;ADMJ;ACJQ;EACI,WCDH;AFOT","file":"estilo.css"}
