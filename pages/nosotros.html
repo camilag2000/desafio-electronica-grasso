@@ -5,60 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../styles.css/estilo.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>ELECTRONICA GRASSO</title>
 </head>
+
 <body>
-    <!--cabecera de pagina-->
-  <header>
-     <!--barra de navegacion-->
-    
-   <section class="cabecera">
-    <img src="./../imagenes/logo.jpg" alt="logo">
-   
-   <nav>
-      <!--enlace de la barra de navegacion-->
-     <ul class="paginaPrincipal"> 
-      <li ><a href="">Inicio</a></li>
-      <li ><a href="./nosotros.html" target="_blank">Nosotros</a></li>
-      <li ><a href="./servicio.html" target="_blank">Servicio</a></li>
-      <li ><a href="./contactanos.html" target="_blank"> Contactanos</a></li>
-      <li ><a href="./dondeestamos.html" target="_blank">Donde estamos</a>
-     </ul> 
-     
-     </nav>
-     <h2 class="electronicaGrasso"> ELECTRONICA GRASSO-SERVICIO TECNICO</h2>
-  </header>
-  </section>
-  
-  <main>
-    <article class="nosotros">
-      <div class="grilla2">
-        <h1> 40 AÑOS A TU SERVICIO</h1>
-        <p class="somos">
-          Somos Electronica Grasso, hace 40 años nos dedicamos al servicio técnico de reparación de televisrores, capacitándonos dia a dia a las nuevas tecnologías, brindando a nuestros clientes una mayor atención.
-    Por un lado tenemos la parte técnica de reparación, con la mejor capacitación y calidad de repuestos originales, siendo service oficiales de ciertas marcas importantes. Por el otro, la parte comercial, ofreciéndole muchos productos con los mejores precios.
-    Te invitamos a que pases por nuestro local, Bv Alvear 541 (Villa Maria, CBA).
-        </p>
-      <img src="./../imagenes/descarga.jfif" alt="GRASSO">
-      </div>
-    </article>
-  </main>   
-  
-  <footer>
-    <section class=" piePagina">
-      <div class="pie"> 
-        <p> Seguinos en instagram</p>
-        <button> <a href="https://www.instagram.com/electronicagrasso/" target="_blank"> ELECTRONICA GRASSO </a>"></a></button>
-      </div>
-    </section>
-    <div class="encontranos">
-    <p> Encontranos en 
-        Bv Alvear 541, Villa Maria, CBA (5900)
-        WPP: 03534299690
-        Fijo: 0353-4521366
-    </p>
+    <header class="cabecera">
+        <!-- inicio de cabecera-->
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" ><img class="imagen-logo" src="./../imagenes/logo.jpg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./servicio.html">SERVICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/servicio.html">CONTACTANOS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
+
+<main>
+
+<section class="servicio">
+    <h3>40 AÑOS A TU SERVICIO </h3>
+    <div class="info-titulo">
+    <p class="somos">
+        Somos Electronica Grasso, hace 40 años nos dedicamos al servicio técnico de reparación de televisrores, capacitándonos dia a dia a las nuevas tecnologías, brindando a nuestros clientes una mayor atención.
+  Por un lado tenemos la parte técnica de reparación, con la mejor capacitación y calidad de repuestos originales, siendo service oficiales de ciertas marcas importantes. Por el otro, la parte comercial, ofreciéndole muchos productos con los mejores precios.
+  Te invitamos a que pases por nuestro local, Bv Alvear 541 (Villa Maria, CBA).
+      </p>
+      <img src="./../imagenes/descarga.jfif" alt="foto">
     </div>
-  
+
+</section>
+
+<footer>
+    <div class="anchoFooter">
+      <div class="redes">
+        <a href="https://wa.me/543534299690" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/electronicagrasso/" target="_blank"><i class="bi bi-instagram"></i> </a>
+        <a href="https://www.facebook.com/grasso.electronica/"target="_blank"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
   </footer>
-  </body>
-  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
