@@ -73,6 +73,36 @@
   margin-right: 2cm;
 }
 
+.servicio-oficial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 4cm;
+  text-align: center;
+  margin-bottom: 1cm;
+  border: 0.2cm #fff solid;
+  padding-left: 1cm;
+  padding: 0.5cm;
+}
+.servicio-oficial h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.9cm;
+  text-align: center;
+  flex: 1;
+  margin-left: 1cm;
+  margin-top: 1cm;
+  margin-right: 1cm;
+}
+.servicio-oficial p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.5cm;
+  flex: 1;
+  text-align: center;
+  margin-top: 0.9cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
 body {
   -webkit-animation-name: animacion;
           animation-name: animacion;
@@ -105,4 +135,9 @@ body {
   20% {
     background-color: #5b6266;
   }
+}
+footer {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 3cm;
 }/*# sourceMappingURL=estilo.css.map */

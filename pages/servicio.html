@@ -6,69 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ELECTRONICA GRASSO SERVICIO</title>
     <link rel="stylesheet" href="./../styles.css/estilo.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>ELECTRONICA GRASSO</title>
 </head>
+
 <body>
-    <!--cabecera de pagina-->
-  <header>
-     <!--barra de navegacion-->
-    
-   <section class="cabecera">
-    <img src="./../imagenes/logo.jpg" alt="logo">
-   
-   <nav>
-      <!--enlace de la barra de navegacion-->
-     <ul class="paginaPrincipal"> 
-      <li ><a href="./../index.html">Inicio</a></li>
-      <li ><a href="./nosotros.html" target="_blank">Nosotros</a></li>
-      <li ><a href="./servicio.html" target="_blank">Servicio</a></li>
-      <li ><a href="./contactanos.html" target="_blank"> Contactanos</a></li>
-      <li ><a href="./dondeestamos.html" target="_blank">Donde estamos</a>
-     </ul> 
-     
-     </nav>
-     <h2 class="electronicaGrasso"> ELECTRONICA GRASSO-SERVICIO TECNICO</h2>
-  </header>
-  
-  </section>
-  
-  <main>
-    <section class="titulo">
-    <h2>NUESTRO SERVICIO</h2>
-    
-    <p> 
-      Somos un servicio tecnico de LED/LCD, hace ya 40 años nos dedicamos al rubro. Capacitandonos y manejando la mejor calidad posible en nuestros servicios.  
-    Contamos con un taller técnico con todas las herramientas necesarias para el manejo, reparación y el cuidado de tu equipo, con un personal experto con un alto nivel de capacitación especializada.</p>
-    </section>
-  <section class="service">
-    <div class="service2">
-    <h4 class="titulo"> Somos service oficial de las siguentes marcas:</h4>
+    <header class="cabecera">
+        <!-- inicio de cabecera-->
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" ><img class="imagen-logo" src="./../imagenes/logo.jpg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./../index.html" target="_blank">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./nosotros.html" target="_blank">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./servicio.html" target="_blank" >SERVICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/servicio.html" target="_blank">CONTACTANOS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</header>
+<main class="conteiner-fluid">
+    <div class="servicio-oficial">
+    <h1>NUESTRO SERVICIO</h1>
+    <p>Somos un servicio tecnico de LED/LCD, hace ya 40 años nos dedicamos al rubro. Capacitandonos y manejando la mejor calidad posible en nuestros servicios.  
+        Contamos con un taller técnico con todas las herramientas necesarias para el manejo, reparación y el cuidado de tu equipo, con un personal experto con un alto nivel de capacitación especializada. </p>
     </div>
-    <nav class="oficial">
-      <ul>
-          <li class="listas"><a href="https://www.philips.com.ar/" target="_blank">PHILIPS</a></li>
-          <li class="listas"><a href="https://store.bgh.com.ar/?gclid=Cj0KCQjw1ZeUBhDyARIsAOzAqQJ3UFDcso0LiU52u-jWBsVS6zQ9y9mnuKqQjLGrUTAqi_wkkgBEJGQaAsbWEALw_wcB" target="_blank">BGH</a></li>
-          <li class="listas"><a href="https://www.daewoo.net.ar/" target="_blank">DAEWOO</a></li>
-          <li class="listas"><a href="https://telefunken.com/" target="_blank">TELEFUNKEN</a></li>
-      </ul> 
-    </nav>  
-    </section>
-   
-  </main>
-  <footer>
-    <section class=" piePagina">
-      <div class="pie"> 
-        <p> Seguinos en instagram</p>
-        <button> <a href="https://www.instagram.com/electronicagrasso/" target="_blank"> ELECTRONICA GRASSO </a>"></a></button>
+    <div class="oficial;shadow-lg p-3 mb-5 bg-body rounded">SERVICIO OFICIAL DE LAS MARCAS MAS FUERTES DE ARGENTINA</div>
+<div class="card">
+    <div class="row justify-content-around ">
+
+    <div class="card" style="width: 15rem; height: 20rem;">
+        <img src="./../imagenes/descarga (1).png" class="card-img-top" alt="pilips">
+        <div class="card-body">
+          <h5 class="card-title">SERVICIO OFICIAL </h5>
+          <a href="https://www.philips.com.ar/" class="btn btn-primary">PHILIPS</a>
+        </div>
       </div>
-    </section>
-    <div class="encontranos">
-    <p> Encontranos en 
-        Bv Alvear 541, Villa Maria, CBA (5900)
-        WPP: 03534299690
-        Fijo: 0353-4521366
-    </p>
+      <div class="card" style="width: 15rem; height: 20rem;">
+        <img src="./../imagenes/descarga.png" class="card-img-top" alt="bgh">
+        <div class="card-body">
+          <h5 class="card-title">SERVICIO OFICIAL</h5>
+          <a href="https://bgh.com.ar/" class="btn btn-primary">BGH</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem; height: 20rem;">
+        <img src="./../imagenes/descarga (2).png" class="card-img-top; width:10rem" alt="hisense">
+        <div class="card-body">
+          <h5 class="card-title">SERVICIO OFICIAL</h5>
+          <a href="https://www.hisense.com.ar/" class="btn btn-primary">HISENSE</a>
+        </div>
+      </div><div class="card" style="width: 15rem; height: 20rem;">
+        <img src="./../imagenes/descarga (3).png" class="card-img-top" alt="DAEWOO">
+        <div class="card-body">
+          <h5 class="card-title">SERVICIO OFICIAL</h5>
+          <a href="https://www.daewoo.net.ar/" class="btn btn-primary">DAEWOO</a>
+        </div>
+      </div>
     </div>
-     </footer>
+</div>
+ 
+</main>
+<footer>
+    <div class="anchoFooter">
+      <div class="redes">
+        <a href="https://wa.me/543534299690" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/electronicagrasso/" target="_blank"><i class="bi bi-instagram"></i> </a>
+        <a href="https://www.facebook.com/grasso.electronica/"target="_blank"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     </body>
-  </html>
+</html>
