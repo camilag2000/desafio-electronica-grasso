@@ -1,1 +1,37 @@
-/*# sourceMappingURL=estilos.css.map */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1cm;
+  width: 80%;
+  text-align: center;
+}
+.info img {
+  width: 40cm;
+  margin-top: 1cm;
+  margin-bottom: 3cm;
+  margin-left: 5cm;
+}
+.info h3 {
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.9cm;
+  text-align: center;
+  flex: 1;
+  border: 0.2cm #fff solid;
+  margin-left: 5cm;
+  margin-top: 1cm;
+}
+.info p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.7cm;
+  flex: 1;
+  text-align: center;
+  margin-top: 0.6cm;
+  margin-left: 9cm;
+}
+
+.navbar .imagen-logo {
+  width: 2cm;
+  border-radius: 4rem;
+}/*# sourceMappingURL=estilos.css.map */
