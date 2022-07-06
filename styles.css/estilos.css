@@ -41,7 +41,7 @@ body {
   border-radius: 4rem;
 }
 
-.info, .info-titulo {
+.info, .info-titulo, .servicio-oficial {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,13 +49,13 @@ body {
   width: 70%;
   text-align: center;
 }
-.info .img-fluid, .info-titulo .img-fluid, .info-titulo img {
+.info .img-fluid, .info-titulo .img-fluid, .servicio-oficial .img-fluid, .info-titulo img, .servicio-oficial img {
   width: 40cm;
   margin-top: 1cm;
   margin-bottom: 3cm;
   margin-left: 5cm;
 }
-.info .titulo, .info-titulo .titulo {
+.info .titulo, .info-titulo .titulo, .servicio-oficial .titulo, .servicio-oficial h1 {
   width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.9cm;
@@ -65,7 +65,7 @@ body {
   margin-left: 5cm;
   margin-top: 4cm;
 }
-.info .parrafo, .info-titulo .parrafo {
+.info .parrafo, .info-titulo .parrafo, .servicio-oficial .parrafo, .servicio-oficial p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.7cm;
   flex: 1;
@@ -74,11 +74,11 @@ body {
   margin-left: 9cm;
 }
 
-.info-titulo {
+.info-titulo, .servicio-oficial {
   margin-top: 3cm;
   margin-right: 3cm;
 }
-.info-titulo .servicio {
+.info-titulo .servicio, .servicio-oficial .servicio {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.9cm;
   text-align: center;
@@ -88,7 +88,7 @@ body {
   margin-top: 3cm;
   margin-right: 2cm;
 }
-.info-titulo .somos {
+.info-titulo .somos, .servicio-oficial .somos {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.5cm;
   flex: 1;
@@ -99,7 +99,7 @@ body {
   width: 25cm;
   height: 4cm;
 }
-.info-titulo img {
+.info-titulo img, .servicio-oficial img {
   width: 60%;
   height: 200px;
   margin-left: 7cm;
@@ -109,29 +109,32 @@ body {
 .btn-facebook {
   color: #ffffff;
   border: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
   background-color: #0c416d;
+  font-size: 30px;
 }
 
 .btn-instagram {
   color: #ffffff;
   border: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
   background-color: #d425c6;
+  font-size: 30px;
 }
 
 .btn-whatsapp {
   color: #ffffff;
   border: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
   background-color: #23e754;
+  font-size: 30px;
 }/*# sourceMappingURL=estilos.css.map */
