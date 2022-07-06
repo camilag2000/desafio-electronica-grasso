@@ -68,7 +68,6 @@ body {
 .info .parrafo, .info-titulo .parrafo, .servicio-oficial .parrafo, .servicio-oficial p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.7cm;
-  flex: 1;
   text-align: center;
   margin-top: 0.6cm;
   margin-left: 9cm;
@@ -106,6 +105,33 @@ body {
   margin-right: 0cm;
 }
 
+.servicio-oficial p {
+  font-size: 0.5cm;
+}
+
+.card {
+  margin-bottom: 5cm;
+  border: 0cm;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  margin-top: 0%;
+}
+
+@keyframes animacion {
+  60% {
+    background-color: #5885c4;
+  }
+  20% {
+    background-color: #1074b3;
+  }
+  20% {
+    background-color: #5b6266;
+  }
+}
 .btn-facebook {
   color: #ffffff;
   border: 0;
@@ -115,6 +141,7 @@ body {
   justify-content: center;
   background-color: #0c416d;
   font-size: 30px;
+  margin-top: 3cm;
 }
 
 .btn-instagram {
@@ -126,6 +153,7 @@ body {
   justify-content: center;
   background-color: #d425c6;
   font-size: 30px;
+  margin-top: 3cm;
 }
 
 .btn-whatsapp {
@@ -137,4 +165,5 @@ body {
   justify-content: center;
   background-color: #23e754;
   font-size: 30px;
+  margin-top: 3cm;
 }/*# sourceMappingURL=estilos.css.map */
