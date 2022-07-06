@@ -1,0 +1,11 @@
+@each $red, $color in $redes {
+    .btn-#{$red} {
+      color: #ffffff;
+      border: 0;
+      padding: 10px;
+      border-radius: 05px;
+      text-align: center;
+      justify-content: center;
+      background-color: $color;
+    }
+  }

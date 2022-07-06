@@ -104,4 +104,34 @@ body {
   height: 200px;
   margin-left: 7cm;
   margin-right: 0cm;
+}
+
+.btn-facebook {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: #0c416d;
+}
+
+.btn-instagram {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: #d425c6;
+}
+
+.btn-whatsapp {
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  background-color: #23e754;
 }/*# sourceMappingURL=estilos.css.map */
