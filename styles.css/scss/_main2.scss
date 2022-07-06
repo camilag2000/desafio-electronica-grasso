@@ -41,14 +41,7 @@
 
     h3 {
         @extend .titulo
-        // font-family: $letra1;
-        // font-size: 0.9cm;
-        // text-align: center;
-        // flex: 1;
-        // border: 0.2cm $blanco solid;
-        // margin-left: 3cm;
-        // margin-top: 3cm;
-        // margin-right: 2cm;
+       
       
     }
 
@@ -56,13 +49,7 @@
         @extend .parrafo;
         font-size: 0.5cm;
 
-        // font-family: $letra1;
-        // font-size: 0.5cm;
-        // flex: 1;
-        // text-align: center;
-        // margin-top: 0.9cm;
-        // margin-left: 2cm;
-        // margin-right: 2cm;
+
       
 
     }
@@ -103,6 +90,6 @@
 }
 @keyframes animacion {
     60% {background-color: #5885c4;}
-    20% {background-color:#1074b3 ;}
+    20% {background-color: #1074b3 ;}
     20%{background-color: #5b6266;}
 }
