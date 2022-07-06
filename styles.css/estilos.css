@@ -1,18 +1,61 @@
-.info {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  margin-top: 0%;
+}
+
+@-webkit-keyframes animacion {
+  60% {
+    background-color: #5885c4;
+  }
+  20% {
+    background-color: #1074b3;
+  }
+  20% {
+    background-color: #5b6266;
+  }
+}
+
+@keyframes animacion {
+  60% {
+    background-color: #5885c4;
+  }
+  20% {
+    background-color: #1074b3;
+  }
+  20% {
+    background-color: #5b6266;
+  }
+}
+.navbar .imagen-logo {
+  width: 2cm;
+  border-radius: 4rem;
+}
+
+.info, .info-titulo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 1cm;
-  width: 80%;
+  width: 70%;
   text-align: center;
 }
-.info img {
+.info .img-fluid, .info-titulo .img-fluid, .info-titulo img {
   width: 40cm;
   margin-top: 1cm;
   margin-bottom: 3cm;
   margin-left: 5cm;
 }
-.info h3 {
+.info .titulo, .info-titulo .titulo {
   width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.9cm;
@@ -20,9 +63,9 @@
   flex: 1;
   border: 0.2cm #fff solid;
   margin-left: 5cm;
-  margin-top: 1cm;
+  margin-top: 4cm;
 }
-.info p {
+.info .parrafo, .info-titulo .parrafo {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.7cm;
   flex: 1;
@@ -31,7 +74,34 @@
   margin-left: 9cm;
 }
 
-.navbar .imagen-logo {
-  width: 2cm;
-  border-radius: 4rem;
+.info-titulo {
+  margin-top: 3cm;
+  margin-right: 3cm;
+}
+.info-titulo .servicio {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.9cm;
+  text-align: center;
+  flex: 1;
+  border: 0.2cm #fff solid;
+  margin-left: 3cm;
+  margin-top: 3cm;
+  margin-right: 2cm;
+}
+.info-titulo .somos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.5cm;
+  flex: 1;
+  text-align: center;
+  margin-top: 0.9cm;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  width: 25cm;
+  height: 4cm;
+}
+.info-titulo img {
+  width: 60%;
+  height: 200px;
+  margin-left: 7cm;
+  margin-right: 0cm;
 }/*# sourceMappingURL=estilos.css.map */

@@ -4,9 +4,15 @@ $azul:#0c1b54;
 $blanco: #fff;
 $letra1:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 $redes: (
-    instagram: rgb(195, 75, 153),
-    facebook: rgb(7, 68, 118),
-    whatsapp: rgb(38, 216, 100),
+    facebook:#0c416d,
+    instagram: #d425c6,
+    whatsapp: #23e754
+);
 
 
-)
+@mixin ancho ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+    

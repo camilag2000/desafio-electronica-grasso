@@ -1,0 +1,9 @@
+@each $red, $color in $redes {
+    .facebook#{$red} {
+        background-color: $color;
+    }
+    .whatsapp#{$red} {
+        background-color: $color;
+    }
+    
+}

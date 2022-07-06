@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 1cm;
-    width: 80%;
+    width: 70%;
     text-align: center;
-    img {
+    .img-fluid {
         width: 40cm;
       
         margin-top: 1cm;
@@ -13,7 +13,7 @@
         margin-left: 5cm;
        
     }
-  h3{
+  .titulo{
         width: 100%;
         font-family: $letra1;
         font-size: 0.9cm;
@@ -21,9 +21,9 @@
         flex: 1;
         border: 0.2cm $blanco solid;
         margin-left: 5cm;
-        margin-top: 1cm;
+        margin-top: 4cm;
     }
-     p {
+     .parrafo {
         font-family: $letra1;
         font-size: 0.7cm;
         flex: 1;
@@ -31,9 +31,43 @@
         margin-top: 0.6cm;
         margin-left: 9cm;
     }
-    
-
 }
 .info-titulo {
-    @extend .info
+    @extend .info;
+    margin-top: 3cm;
+    margin-right: 3cm;
+  
+   
+
+    .servicio {
+        font-family: $letra1;
+        font-size: 0.9cm;
+        text-align: center;
+        flex: 1;
+        border: 0.2cm $blanco solid;
+        margin-left: 3cm;
+        margin-top: 3cm;
+        margin-right: 2cm;
+      
+    }
+
+    .somos {
+        font-family: $letra1;
+        font-size: 0.5cm;
+        flex: 1;
+        text-align: center;
+        margin-top: 0.9cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        @include ancho (25cm, 4cm)
+
+    }
+    img {
+        @extend .img-fluid;
+        @include ancho (60%, 200px);
+        margin-left: 7cm;
+        margin-right: 0cm;
+    }
+
+    
 }
