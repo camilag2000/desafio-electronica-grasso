@@ -55,7 +55,7 @@ body {
   margin-bottom: 3cm;
   margin-left: 5cm;
 }
-.info .titulo, .info-titulo .titulo, .servicio-oficial .titulo, .servicio-oficial h1 {
+.info .titulo, .info-titulo .titulo, .servicio-oficial .titulo, .servicio-oficial h1, .info-titulo h3, .servicio-oficial h3 {
   width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.9cm;
@@ -65,7 +65,7 @@ body {
   margin-left: 5cm;
   margin-top: 4cm;
 }
-.info .parrafo, .info-titulo .parrafo, .servicio-oficial .parrafo, .servicio-oficial p {
+.info .parrafo, .info-titulo .parrafo, .servicio-oficial .parrafo, .info-titulo p, .servicio-oficial p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.7cm;
   text-align: center;
@@ -77,26 +77,8 @@ body {
   margin-top: 3cm;
   margin-right: 3cm;
 }
-.info-titulo .servicio, .servicio-oficial .servicio {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.9cm;
-  text-align: center;
-  flex: 1;
-  border: 0.2cm #fff solid;
-  margin-left: 3cm;
-  margin-top: 3cm;
-  margin-right: 2cm;
-}
-.info-titulo .somos, .servicio-oficial .somos {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+.info-titulo p, .servicio-oficial p {
   font-size: 0.5cm;
-  flex: 1;
-  text-align: center;
-  margin-top: 0.9cm;
-  margin-left: 2cm;
-  margin-right: 2cm;
-  width: 25cm;
-  height: 4cm;
 }
 .info-titulo img, .servicio-oficial img {
   width: 60%;
